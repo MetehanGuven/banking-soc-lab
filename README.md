@@ -119,7 +119,7 @@ index=banking_soc event=xss_attempt
 ### 7. Successful Bypass Detection
 ![Bypass Detection](docs/screenshots/bypass.png)
 
-### 8. XSS Attack Detection
+### 8. XSS Attack 
 ![XSS](docs/screenshots/xss.png)
 
 ## Disclaimer
