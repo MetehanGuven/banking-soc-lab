@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank - Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="landing-page">
+            <h1>🏦 SecureBank</h1>
+            <h2>SOC Analysis Lab Project</h2>
+            <p class="subtitle">Güvenlik Açıklı Banking Uygulaması - Eğitim Amaçlıdır</p>
+            
+            <div class="buttons">
+                <a href="login.html" class="btn-primary">Giriş Yap</a>
+            </div>
+            
+            <div class="project-info">
+                <h3>🔍 Proje Özellikleri</h3>
+                <ul>
+                    <li>✅ SQL Injection açıkları (kasıtlı)</li>
+                    <li>✅ Detaylı Winston logging</li>
+                    <li>✅ PostgreSQL veritabanı</li>
+                    <li>✅ Para transferi sistemi</li>
+                    <li>✅ İşlem geçmişi</li>
+                    <li>✅ Splunk entegrasyonu (yakında)</li>
+                </ul>
+                
+                <h3>⚠️ Güvenlik Uyarısı</h3>
+                <p>Bu uygulama eğitim ve test amaçlıdır. Gerçek üretim ortamında kullanılmamalıdır.</p>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .landing-page {
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .landing-page h1 {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .landing-page h2 {
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+        
+        .buttons {
+            margin: 30px 0;
+        }
+        
+        .buttons a {
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .project-info {
+            margin-top: 40px;
+            text-align: left;
+            padding: 20px;
+            background: var(--bg);
+            border-radius: 12px;
+        }
+        
+        .project-info h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .project-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .project-info li {
+            padding: 8px 0;
+        }
+    </style>
+</body>
+</html>

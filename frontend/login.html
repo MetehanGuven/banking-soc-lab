@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank - Giriş</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <h1>🏦 SecureBank</h1>
+                <p class="tagline">Güvenli Bankacılık Çözümleri</p>
+            </div>
+            
+            <form id="loginForm">
+                <h2>Giriş Yap</h2>
+                
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit" class="btn-primary">Giriş Yap</button>
+                
+                <div id="error-message" class="error-message"></div>
+            </form>
+            
+            <div class="footer">
+                <p>© 2025 SecureBank - Tüm hakları saklıdır</p>
+                <p class="security-notice">🔒 256-bit SSL Şifreleme</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
