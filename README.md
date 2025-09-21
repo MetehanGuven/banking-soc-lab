@@ -96,6 +96,32 @@ index=banking_soc event=xss_attempt
 - Security-first development approach
 - Blue Team and Red Team perspectives
 
+## Screenshots
+
+### 1. Login Page
+![Login Page](docs/screenshots/login.png)
+
+### 2. SQL Injection Attack
+![SQL Injection](docs/screenshots/sqli_login.png)
+
+### 3. Account Dashboard
+![Dashboard](docs/screenshots/account_page.png)
+
+### 4. Splunk Detection - SQL Injection Attempts
+![SQLi Detection](docs/screenshots/sqli_attempts.png)
+
+### 5. Splunk Alerts
+![Alerts](docs/screenshots/alerts.png)
+
+### 6. Failed Login Attempts
+![Failed Logins](docs/screenshots/failed_login_attempts.png)
+
+### 7. Successful Bypass Detection
+![Bypass Detection](docs/screenshots/bypass.png)
+
+### 8. XSS Attack Detection
+![XSS](docs/screenshots/xss.png)
+
 ## Disclaimer
 
 This project is for educational purposes only. Do not use these techniques against systems you don't own or have explicit permission to test.
