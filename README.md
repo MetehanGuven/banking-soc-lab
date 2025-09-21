@@ -98,6 +98,7 @@ index=banking_soc event=xss_attempt
 
 ## Screenshots
 
+
 ### 1. Login Page
 ![Login Page](docs/screenshots/login.png)
 
@@ -122,10 +123,13 @@ index=banking_soc event=xss_attempt
 ### 8. XSS Attack 
 ![XSS](docs/screenshots/xss.png)
 
+### 9. Logs 
+![Logs](docs/screenshots/logs.png)
+
 ## Disclaimer
 
 This project is for educational purposes only. Do not use these techniques against systems you don't own or have explicit permission to test.
 
 ## Contact
 
-LinkedIn: www.linkedin.com/in/metehan-güven-169355235
+LinkedIn: www.linkedin.com/in/metehan-güven-169355235 
