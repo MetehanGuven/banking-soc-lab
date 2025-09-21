@@ -55,7 +55,7 @@ Prerequisites:
 - Splunk Enterprise
 
 Backend Setup:
-1. git clone https://github.com/YOUR-USERNAME/banking-soc-lab.git
+1. git clone https://github.com/MetehanGuven/banking-soc-lab.git
 2. cd banking-soc-lab/backend
 3. npm install
 4. cp .env.example .env (edit with your credentials)
